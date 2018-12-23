@@ -3,7 +3,8 @@ import React, { Component } from 'react'
 export default class Profile extends Component {
        constructor(props){
            super(props);
-           console.log(props)
+           console.log("this.props",this.props); // undefined
+    console.log("props",props); // defined
     this.state = {show_technologies : false}
     this.see_our_technologies = this.see_our_technologies.bind(this);
 
@@ -13,8 +14,8 @@ export default class Profile extends Component {
     }
 
   render() {
-    console.log("this.props",this.props);
-    console.log("this.state" , this.state);
+    //console.log("this.props",this.props);
+    //console.log("this.state" , this.state);
     // console.log("constructor" , constructor);
 
        // this.props.img_url = 'http://via.placeholder.com/350x150'
