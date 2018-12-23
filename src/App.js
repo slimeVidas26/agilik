@@ -1,8 +1,8 @@
 // https://www.agiliq.com/blog/2018/05/understanding-react-state-and-props/
 
 import React, { Component } from 'react';
-//import Profile from './components/Profile';
-import Profile from './components/ProfileFunction';
+import Profile from './components/Profile';
+//import Profile from './components/ProfileFunction';
 
 class App extends Component {
  
