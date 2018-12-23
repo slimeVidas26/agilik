@@ -1,25 +1,21 @@
+// https://www.agiliq.com/blog/2018/05/understanding-react-state-and-props/
+
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+//import Profile from './components/Profile';
+import Profile from './components/ProfileFunction';
 
 class App extends Component {
+ 
   render() {
+
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div>
+        <br/> <br/> <br/> <br/> <br/> <br/>
+        
+       <Profile 
+       logo_url = "https://books.agiliq.com/projects/django-design-patterns/en/latest/_static/logo.png"
+       title = "Mobile App, Web App and API Development and More"
+       />
       </div>
     );
   }
